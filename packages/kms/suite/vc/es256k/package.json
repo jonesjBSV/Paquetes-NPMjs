@@ -10,8 +10,8 @@
     "lint": "eslint src/**/*.ts"
   },
   "dependencies": {
-    "@quarkid/kms-core": "workspace:*",
-    "@quarkid/did-core": "workspace:*",
+    "@quarkid/kms-core": "*",
+    "@quarkid/did-core": "*",
     "@bsv/sdk": "^1.6.0"
   },
   "devDependencies": {
@@ -19,8 +19,8 @@
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
-    "@quarkid/kms-core": "workspace:*",
-    "@quarkid/did-core": "workspace:*"
+    "@quarkid/kms-core": "*",
+    "@quarkid/did-core": "*"
   },
   "keywords": [
     "quarkid",
